@@ -7,6 +7,7 @@ import PropsFunDemo from './PropsFunDemo';
 import PropsClassDemo from './PropsClassDemo';
 import ParentComponent from './ParentComponent';
 import SetSatetParent from './components/setStateParent';
+import UseStateParent from './components/useStateParent';
 function App() {
   return (
     <div className="App">
@@ -17,9 +18,11 @@ function App() {
      <ClassComponentDemo></ClassComponentDemo>
      <PropsFunDemo name="Anil Banti"></PropsFunDemo>
      <PropsClassDemo rollNumber="12831A1277"></PropsClassDemo>
-     <ParentComponent></ParentComponent>*/}
-
-     <SetSatetParent></SetSatetParent>
+     <ParentComponent></ParentComponent>
+      <SetSatetParent></SetSatetParent>
+     */}
+< UseStateParent></UseStateParent>
+    
      
     </div>
   );
