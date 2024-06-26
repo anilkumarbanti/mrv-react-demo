@@ -1,7 +1,5 @@
 # mrv-react-demo
 
-# mrv-react-demo
-
 Welcome to the mrv-react-demo repository! This repository contains code examples and a project developed during a React training course. Each module and topic covered in the training corresponds to different branches in this repository.
 
 ## Table of Contents
