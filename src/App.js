@@ -9,6 +9,7 @@ import ParentComponent from './ParentComponent';
 import SetSatetParent from './components/setStateParent';
 import UseStateParent from './components/useStateParent';
 import SetState from './components/SetState';
+import LifeCycleDemoClassComp from './components/LifeCycleDemoClassComp';
 function App() {
   return (
     <div className="App">
@@ -22,9 +23,10 @@ function App() {
      <ParentComponent></ParentComponent>
       <SetSatetParent></SetSatetParent>
       < UseStateParent></UseStateParent>
+       <SetState></SetState>
      */}
 
-     <SetState></SetState>
+    <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
 
     
      
