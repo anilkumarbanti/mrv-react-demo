@@ -13,6 +13,7 @@ import LifeCycleDemoClassComp from './components/LifeCycleDemoClassComp';
 import LifeCycleDemoFunComp from './components/LifeCycleDemoFunComp';
 import ContactForm from './components/ContactForm';
 import UserForm from './components/UserForm';
+import DataFetcher from './components/DataFetcher';
 function App() {
   return (
     <div className="App">
@@ -29,10 +30,11 @@ function App() {
       <SetState></SetState>
       <LifeCycleDemoClassComp></LifeCycleDemoClassComp>
       <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
+      <UserForm></UserForm>
      */}
 
- 
-<UserForm></UserForm>
+ <DataFetcher></DataFetcher>
+
     
      
     </div>
