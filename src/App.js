@@ -11,6 +11,8 @@ import UseStateParent from './components/useStateParent';
 import SetState from './components/SetState';
 import LifeCycleDemoClassComp from './components/LifeCycleDemoClassComp';
 import LifeCycleDemoFunComp from './components/LifeCycleDemoFunComp';
+import ContactForm from './components/ContactForm';
+import UserForm from './components/UserForm';
 function App() {
   return (
     <div className="App">
@@ -29,8 +31,8 @@ function App() {
       <LifeCycleDemoFunComp></LifeCycleDemoFunComp>
      */}
 
-   
-
+ 
+<UserForm></UserForm>
     
      
     </div>
