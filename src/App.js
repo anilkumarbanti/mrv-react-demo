@@ -16,6 +16,13 @@ import UserForm from './components/UserForm';
 import DataFetcher from './components/DataFetcher';
 import LoginForm from './components/LoginForm';
 import Calculator from './components/Calculator';
+import { Link, Router, Routes } from 'react-router-dom';
+import Products from './routingdemo/Products';
+import Home from './routingdemo/Home';
+import ProductDetails from './routingdemo/ProductDetails';
+import Cart from './routingdemo/Cart';
+
+import { BrowserRouter as  Route, Switch} from 'react-router-dom';
 function App() {
   return (
     <div className="App">
@@ -35,9 +42,25 @@ function App() {
       <UserForm></UserForm>
        <DataFetcher></DataFetcher>
        <LoginForm></LoginForm>
+       <Calculator/>
      */}
 
-     <Calculator/>
+     <Router>
+      <nav>
+        <Link to ="/">Home</Link> | <Link to ="/products">Products</Link> | <Link to="/cart">Cart</Link>
+      </nav>
+
+      <Routes>
+        <Route exact path="/" component={Home}/>
+        <Route exact path="/products" component={Products}/>
+        <Route path="/products/:productID" component={ProductDetails} />
+        <Route path="/cart" component={Cart}/>
+
+      </Routes>
+
+     </Router>
+
+     
 
 
     
